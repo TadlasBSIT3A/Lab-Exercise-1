@@ -1,0 +1,92 @@
+body{
+    background-image: url(/img/background.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    font-family: Roboto;
+    font-size: 16px;
+}
+
+.container{
+    width: 1024px;
+    margin: auto;
+    background-color: #dddddd;
+    border: 5px solid #bbbbbb;
+    padding: 10px
+    
+}
+
+nav{
+    width: 100%;
+    text-align: right;
+}
+
+form{
+    display: flex;
+    justify-self: flex-end;
+    justify-content: flex-end;
+    gap: 5px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+}
+
+article{
+    text-align: justify;
+}
+
+.navigator{
+    padding-bottom: 5px;
+}
+
+.menu{
+    list-style: none;
+}
+
+.menus{
+    display: block;
+    float: left;
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+    background-color: #597aed;
+    margin-left: 2px;
+    padding-top: 3px;
+    text-align: center;
+}
+.menus a{
+    color: white;
+    text-decoration: none; 
+}
+
+.menus:hover{
+    background-color: #1226ed;
+}
+aside{
+    float: right;
+    width: 25%;
+    background-color: white;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #bbbbbb;
+    padding: 10px;
+    margin-left: 1%;
+}
+
+article{
+    text-align: justify;
+}
+
+footer{
+    background-color: white;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #bbbbbb;
+    font-size: 0.8em;
+}
+
+#foot{
+    text-align: center;
+    margin: 0px;
+    padding: 10px;
+}
